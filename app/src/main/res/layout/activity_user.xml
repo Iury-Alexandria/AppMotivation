@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/lilas"
+    tools:context=".ui.UserActivity">
+
+    <TextView
+        android:id="@+id/text_comecar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Vamos começar?"
+        android:textColor="@color/white"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:textSize="30sp"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:hint="@string/whast_your_name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="@string/save"
+        android:backgroundTint="#FF6E9F"
+        />
+
+
+</RelativeLayout>
